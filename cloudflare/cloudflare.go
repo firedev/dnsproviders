@@ -5,7 +5,7 @@ package cloudflare
 import (
 	"errors"
 
-	"github.com/caddyserver/caddy/caddytls"
+	"github.com/caddyserver/caddy/modules/caddytls"
 	"github.com/go-acme/lego/v3/providers/dns/cloudflare"
 )
 
